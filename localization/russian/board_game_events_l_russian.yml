@@ -384,9 +384,26 @@
  ##################################################
  # Ending Events
  board_games.0031.t:0 "$board_games.0000.t$"
- board_games.0031.desc:0 "С победным ревом я вскакиваю на ноги, [SCOPE.Custom('BG_GamePiecePlural')] летят во все стороны. [SCOPE.Custom('BG_GameType')|U] — еще одна веха моего триумфального шествия к престолу Короля игр.\n\n[bg_loser.GetFirstName] продолжает сидеть, сложив руки на коленях, и пытается понять, где же [bg_loser.GetSheHe] [Select_CString(bg_loser.IsFemale, 'ошиблась', 'ошибся' )]."
+
+
+ board_games.0031.desc.intro.01:0 "С победным ревом я вскакиваю на ноги, [SCOPE.Custom('BG_GamePiecePlural')] летят во все стороны."
+ board_games.0031.desc.intro.02:0 "Я самоуверенно ухмыляюсь, и [SCOPE.Custom('BG_GamePiece')|l] оказывается на доске, завершая партию."
+ board_games.0031.desc.intro.03:0 "[SCOPE.Custom('BG_GamePiece')] стоит на доске, притягивая наши взгляды. Получилось. Победа."
+
+ board_games.0031.desc.middle.01:0 "[SCOPE.Custom('BG_GameType')|U] — еще одна веха моего триумфального шествия к престолу Короля игр."
+ board_games.0031.desc.middle.02:0 "Мне вновь удалось доказать свое интеллектуальное превосходство."
+ board_games.0031.desc.middle.03:0 "[ROOT.Char.GetFaith.HighGodName] свидетель моей сегодняшней победы. С самого начала у меня не было сомнений в том, что [ROOT.Char.GetFaith.HighGodName] дарует победу мне, иначе и быть не может."
+
+ board_games.0031.desc.end.01:0 "\n\n[bg_loser.GetFirstName] продолжает сидеть, сложив руки на коленях, и пытается понять, где же [bg_loser.GetSheHe] [Select_CString(bg_loser.IsFemale, 'ошиблась', 'ошибся' )]."
+ board_games.0031.desc.end.02:0 "\n\n[bg_loser.GetFirstName] продолжает сидеть, глядя перед собой невидящим взглядом. [bg_loser.GetSheHe|U] не может поверить в мою победу."
+ board_games.0031.desc.end.03:0 "\n\n[bg_loser.GetFirstName] с трудом сдерживает свой норов. Мне удалось одолеть и унизить [bg_loser.GetHerHis|l]."
+
+
  board_games.0031.a:0 "Хорошо поиграли!"
+ board_games.0031.a.a:0 "Отличная игра!"
  board_games.0031.b:0 "Понравилось проигрывать, жалкий мой человек?"
+ board_games.0031.b.a:0 "Кланяйся мне, [recipient.Custom('InsultNoun')|l]!"
+ board_games.0031.b.b:0 "Не #EMP слишком#! расстраивайтесь, не всем же быть умными, как я."
  board_games.0031.b.progress_towards_rival:0 "[bg_loser.GetTitledFirstName] принимает поражение близко к сердцу"
  board_games.0031.c:0 "Можно будет как-нибудь повторить..."
  board_games.0031.a.tt.success:0 "Противнику понравилась игра"
@@ -395,9 +412,23 @@
  board_games.0031.desc.result.sudden_death:0 "#BOL Результат:#! [bg_loser.GetFirstNameNoTooltip] проигрывает мне [Concept( 'board_game_match', 'партию' )|E] с [Concept( 'board_game_winning_sudden_death', 'дополнительным временем' )|E]"
 
  board_games.0041.t:0 "$board_games.0000.t$"
- board_games.0041.desc:0 "[bg_victor.GetFirstName] испускает звериный крик и победно вскакивает на ноги.\n\nЯ... Мне не удалось победить. Руки бессильно опускаются в поисках опоры.\n\n Неужели [SCOPE.Custom('BG_GameType')] — #EMP не для меня#!?"
+
+
+ board_games.0041.desc.intro.01:0 "[bg_victor.GetFirstName] испускает звериный рев победы и вскакивает на ноги.\n\nЯ... Мне не удалось победить. Руки бессильно опускаются в поисках опоры."
+ board_games.0041.desc.intro.02:0 "[bg_victor.GetFirstName] самодовольно ухмыляется. [bg_victor.GetSheHe] [Select_CString(bg_victor.IsFemale, 'победила', 'победил' )], а мне досталась горечь поражения.\n\n"
+ board_games.0041.desc.intro.03:0 "Словами не выразить разочарование, которое вызывают у меня стоящие на доске [SCOPE.Custom('BG_GamePiecePlural')|l]. Их расположение явно указывает на мое поражение."
+
+ board_games.0041.desc.middle.01:0 "[ROOT.Char.GetFaith.HighGodName] свидетель, я [Select_CString(ROOT.Char.IsFemale, 'сделала', 'сделал' )] все возможное..."
+ board_games.0041.desc.middle.02:0 "Подумать только, меня [Select_CString(bg_victor.IsFemale, 'перехитрила эта дура', 'перехитрил этот дурак' )] [bg_victor.GetFirstName]."
+ board_games.0041.desc.middle.03:0 "\n\n[SCOPE.Custom('BG_GameType')|U] лишь дешевая имитация #EMP настоящей войны#!, и в этом моему противнику со мной не сравниться. Пока [bg_loser.GetSheHe] изучает [SCOPE.Custom('BG_GameType')|l], #EMP я тренируюсь с клинком.#! Все же..."
+
+ board_games.0041.desc.end.01:0 "\n\nНеужели [SCOPE.Custom('BG_GameType')] — не для меня?"
+ board_games.0041.desc.end.02:0 "\n\nМои ладони потеют, а колени дрожат, когда я понимаю, что [bg_victor.GetFirstName] [Select_CString(bg_victor.IsFemale, 'победила', 'победил' )] меня и мое мастерство меня не спасло."
+ board_games.0041.desc.end.03:0 "\n\nВот [recipient.Custom('InsultNoun')|l]! Вот же [recipient.Custom('InsultNoun')|l]! Наверняка не обошлось без мошенничества, ведь не могу же #EMP я#! проиграть?!"
+
  board_games.0041.a:0 "Посмотрим, кто выиграет в следующий раз..."
  board_games.0041.b:0 "Сегодня у тебя появился враг."
+ board_games.0041.b.b:0 "Продолжайте радоваться, и, [ROOT.Char.GetFaith.HighGodName] свидетель, вы познаете вкус поражения!"
  board_games.0041.c:0 "Что ж, [Select_CString(bg_victor.IsFemale, 'победила сильнейшая', 'победил сильнейший' )]!"
  board_games.0041.desc.result.skill:0 "#BOL Результат:#! [bg_victor.GetFirstNameNoTooltip] побеждает меня в [Concept( 'board_game_match', 'настольной игре' )|E] по [Concept( 'board_game_winning', 'очкам' )|E]"
  board_games.0041.desc.result.sudden_death:0 "#BOL Результат:#! [bg_victor.GetFirstNameNoTooltip] побеждает меня в [Concept( 'board_game_match', 'настольной игре' )|E] с [Concept( 'board_game_winning_sudden_death', 'дополнительным временем' )|E]"
@@ -417,3 +448,7 @@
  board_games.0102.a:0 "Простую игру, пожалуйста."
  board_games.0102.b:0 "Пусть враг стоит только на выигрышных позициях, пожалуйста."
  board_games.0102.c:0 "Пусть враг стоит только на невыгодных позициях, пожалуйста."
+
+# === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
+ board_games.0031.desc:0 "С победным ревом я вскакиваю на ноги, [SCOPE.Custom('BG_GamePiecePlural')] летят во все стороны. [SCOPE.Custom('BG_GameType')|U] — еще одна веха моего триумфального шествия к престолу Короля игр.\n\n[bg_loser.GetFirstName] продолжает сидеть, сложив руки на коленях, и пытается понять, где же [bg_loser.GetSheHe] [Select_CString(bg_loser.IsFemale, 'ошиблась', 'ошибся' )]."
+ board_games.0041.desc:0 "[bg_victor.GetFirstName] испускает звериный крик и победно вскакивает на ноги.\n\nЯ... Мне не удалось победить. Руки бессильно опускаются в поисках опоры.\n\n Неужели [SCOPE.Custom('BG_GameType')] — #EMP не для меня#!?"

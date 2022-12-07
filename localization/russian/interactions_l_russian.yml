@@ -1358,6 +1358,7 @@
  INTERACTION_DECEITFUL:0 "[GetTrait('deceitful').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_ARROGANT:0 "[GetTrait('arrogant').GetName( recipient )]: $VALUE|=+0$"
  INTERACTION_STUBBORN:0 "[GetTrait('stubborn').GetName( recipient )]: $VALUE|=+0$"
+ INTERACTION_INTRIGUE_EDUCATION:0 "[education_trait|E] интриги: $VALUE|=+0$"
 
  gift_artifact_interaction:0 "Подарить артефакт"
  gift_artifact_interaction_desc:0 "Отправить артефакт персонажу [recipient.GetShortUINameNoTooltip], чтобы улучшить [recipient.GetHerHis] мнение о вас"

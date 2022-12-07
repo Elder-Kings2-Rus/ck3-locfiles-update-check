@@ -31,7 +31,7 @@
  GHW_WITHDRAW:0 "Отказаться"
  GHW_WITHDRAWPLEDGE:0 "Отказаться от обещания"
  GHW_GIVE_GOLD:0 "Пожертвовать золото"
- GHW_CHANGE_BENEFICIARY:2 "[Select_CString( GetPlayer.GetBeneficiary.IsValid, 'Заменить', 'Назначить' )]"
+ GHW_CHANGE_BENEFICIARY:2 "[Select_CString( GetPlayer.GetBeneficiary.IsValid, 'Заменить', 'Назначить' )] ([GreatHolyWarWindow.GetNumberOfPotentialBeneficiaries])" # [LocEditor:AwaitingBatchUpdate]
  GHW_MY_BENEFICIARY:0 "Мой [beneficiary|El]"
  GHW_MY_CONTRIBUTION:0 "Мой [contribution|El]"
  GHW_TOGGLE_BENEFICIARY:1 "Обойти предпочтительного кандидата"
@@ -80,3 +80,6 @@
  GHW_MY_SCORE_OTHER_TT:0 "[GreatHolyWarWindow.GetScoreBreakdown( Character.Self )]"
  GHW_RANK_NONE:0 "-"
  GHW_FORMAT_RANK:0 "$NUM|O$"
+
+ ghw_heir_to_a_title:0 "Является [Concept( 'heir', 'наследником' )|E] [Concept( 'title', 'титула' )|E]"
+ ghw_married_to_a_ruler:0 "Состоит [Concept( 'married', 'в браке' )|E] с [Concept( 'ruler', 'правителем' )|E]"

@@ -339,7 +339,7 @@
  seduce_ongoing.3004.a:0 "Что же мне еще сделать?"
 
  seduce_ongoing.4001.t:0 "[target.Custom('MusicalPerformerPossessive')|U] играет ради вас"
- seduce_ongoing.4001.desc:0 "[court_location.GetNameNoTier] готовится к прекрасному представлению: вскоре здесь выступит [target.Custom('MusicalPerformer')]. Думаю, [dummy_musician_gender.GetHerHim] не составит труда слегка изменить программу и заявить, что [target.GetTitledFirstName], объект моего влечения, — главное украшение вечера."
+ seduce_ongoing.4001.desc:0 "Пока [ROOT.Char.Custom('MusicalPerformer')] горячо вещает о любви и страсти, я изо всех сил стараюсь не показывать, насколько это мне льстит.\n\nИ хотя метафоры и аллегории скрывают лицо не хуже вуали, я знаю, что признание предназначено мне, а его автор — [owner.ze]."
  seduce_ongoing.4001.desc.court_musician:0 "[court_location.GetNameNoTier] готовится к прекрасному представлению: вскоре здесь выступит [target.Custom('MusicalPerformer')]. Думаю, если как следует попросить, [dummy_musician_gender.GetSheHe] не откажется слегка изменить программу и заявить, что [target.GetTitledFirstName], объект моего влечения, — главное украшение вечера.\n\nВ то же время, быть может, $court_musician_court_position$ согласится воспеть меня перед слушателями."
  seduce_ongoing.4001.a:0 "Это весьма откровенно!"
  seduce_ongoing.4001.b:0 "Я предпочту заявить о моем влечении к н[target.GetHerHim] завуалированно."

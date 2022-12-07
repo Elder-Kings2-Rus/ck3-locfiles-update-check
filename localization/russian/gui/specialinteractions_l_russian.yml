@@ -227,6 +227,7 @@
  GRANT_REVOKE_TITLES_ITEM_DESELECT:0 "#T [TITLE.GetName] — снять выделение#!"
  GRANT_REVOKE_RIGHT_CLICK_INFO:0 "#I ПКМ — перейти#!"
  GRANT_TITLES_ITEM_CANT_CAPITAL:2 "@warning_icon!#X Вы не можете даровать свой [Concept( 'primary_title', 'первый титул' )|E]#!"
+ GRANT_TITLES_ITEM_CANT_HEAD_OF_FAITH:0 "Вы не можете даровать титулы главы конфессии"
  GRANT_TITLE_BARONY_HAS_COUNTY_SELECTED:1 "Будет даровано, поскольку даруется титул [TITLE.GetName]"
  CANNOT_GRANT_LEASED_OUT_TITLE:1 "@warning_icon!#X Нельзя отдать [Concept( 'leased', 'арендованный' )|E] титул#!"
  GRANT_TITLES_ITEM_CANT_PRIMARY:1 "@warning_icon!#X Вы не можете даровать свой [Concept( 'primary_title', 'первый титул' )|E]#!"
@@ -480,3 +481,4 @@
  UNITY_PERK_BONUS:0 "$fp2_coterie_legacy_3_name$: $VALUE|=+0$"
  AI_RELEVANT_TRAITS:0 "Значимые свойства: $VALUE|=+0$"
 
+ SELECT_HOLY_ORDER_LEASE_TO_REVOKE:0 "Выбрать аренду"

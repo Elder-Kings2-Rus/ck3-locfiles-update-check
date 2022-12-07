@@ -578,7 +578,7 @@
  culture_parameter_facilitate_alliance_acceptance:0 "Принятие предложения [Concept( 'alliance', 'союза' )|E]: #P +50#!"
  culture_parameter_facilitate_white_peace:0 "Принятие [Concept( 'white_peace', 'белого мира' )|E]: #P +10#!"
  culture_parameter_more_frequent_hunts:0 "Задержка между [Concept( 'hunt', 'охотами' )|E]: #P -50%#!"
- culture_parameter_cannot_hunt:0 "НЕЛЬЗЯ устраивать [Concept( 'hunt', 'охоту' )|E]"
+ culture_parameter_cannot_hunt:1 "Нельзя устраивать [Concept( 'hunt', 'охоту' )|E]"
  culture_parameter_sacred_hunts:1 "[hunt|E] после завершения приносит [piety_i][piety|El]"
  culture_parameter_hunting_traits_more_common:0 "[characters|E] чаще получают [Concept( 'traits', 'свойства' )|E] «[GetTrait('hunter_2').GetName( GetNullCharacter )]»"
  culture_parameter_reveler_traits_more_common:0 "[characters|E] чаще получают [Concept( 'traits', 'свойства' )|E] «[GetTrait('reveler_2').GetName( GetNullCharacter )]»"

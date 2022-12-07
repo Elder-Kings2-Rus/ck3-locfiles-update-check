@@ -233,6 +233,7 @@
  ARTIFACT_CLAIMS:0 "Претензии на артефакты"
  NEW_ARTIFACT:1 "#V Новый#!"
  EQUIPPED_ARTIFACT:2 "[Select_CString( Artifact.IsCourtArtifact, 'Демонстрируется', 'Используется' )] [Inventory.GetEquippedSlotOfMaxSlotText( Artifact.Self )]"
+ GIFT_EQUIPPED_ARTIFACT:0 "[Select_CString( Artifact.IsCourtArtifact, 'Выставляется', 'Используется' )]"
  CHARACTER_WITHOUT_ROYAL_COURT_COURT_ARTIFACT_TAB:1 "Так как [Character.GetShortUIName] не [Character.LocalPlayerString( 'имею', 'имеет' )] [Concept( 'royal_court', 'монаршего двора' )|E], [Character.GetShortUIName] не [Character.LocalPlayerString( 'могу', 'может' )] выставить этот [court_artifact|el] на обозрение."
  ARTIFACT_TITLE_ASSOCIATION:1 "Унаследовано вместе с титулом «[Artifact.GetAssociatedTitle.GetNameWithUnderlying]»"
  EMPTY_INVENTORY_TOOLTIP:0 "@warning_icon!#X Нельзя посмотреть инвентарь: нет [Concept( 'artifacts', 'артефактов' )|E] или [Concept( 'artifact_claims', 'претензий на артефакты' )|E] для демонстрации#!"

@@ -47,7 +47,7 @@
  great_holy_war.0018.a:0 "Я присоединюсь к войску [scoped_pope.GetFaith.HighGodNamePossessive]!"
  great_holy_war.0018.b:0 "Мне нужно еще какое-то время подумать над этим..."
  great_holy_war.0003.title:0 "Последователи готовятся к войне"
- great_holy_war.0003.catholic.desc:1 "Папский эмиссар прибыл к моему двору с новостями из Ватикана. [ghw_sponsor.GetTitledFirstName] [Select_CString(ghw_sponsor.IsFemale, 'призвала', 'призвал' )] к оружию всех христианских правителей. Я [ROOT.Char.GetTitleAsNameNoTooltip|l]-[ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l], и предполагается, что я соберу свои войска на праведную войну, которую поддерживает сама Вселенская Церковь.\n\nПокуда [target_character.Custom('GetUnbelieverNamePlural')] оскверняют святые места в земле [target_kingdom.GetBaseNameNoTier], Святой престол обещает полное отпущение грехов и место на небесах тем, кто выступит против злодеев."
+ great_holy_war.0003.catholic.desc:0 "Папский эмиссар прибыл к моему двору с новостями из Ватикана. [ghw_sponsor.GetTitledFirstName] [Select_CString(ghw_sponsor.IsFemale, 'призвала', 'призвал' )] к оружию всех христианских правителей. Я [ROOT.Char.GetTitleAsNameNoTooltip|l]-[ROOT.Char.GetFaith.GetAdherentNameNoTooltip|l], и предполагается, что я соберу свои войска на праведную войну, которую поддерживает сама Вселенская Церковь.\n\nПокуда [target_character.Custom('GetUnbelieverNamePlural')] оскверняют святые места в земле [target_kingdom.GetBaseNameNoTier], Святой престол обещает полное отпущение грехов и место на небесах тем, кто выступит против злодеев." # [LocEditor:AwaitingBatchUpdate]
  great_holy_war.0003.fallback.desc:0 "До моего двора дошли славные вести. [ghw_sponsor.GetTitledFirstName] [Select_CString(ghw_sponsor.IsFemale, 'решила', 'решил' )], что [ghw_sponsor.GetFaith.GetAdherentNamePluralNoTooltip|l] должны объединиться под единым знаменем против общего врага. Начинается [ghw_sponsor.GetFaith.GHWName] во славу [ghw_sponsor.GetFaith.HighGodNamePossessive]!\n\n[ghw_sponsor.GetTitleTierName] обещает, что всех, кто присоединится к праведному воинству, примет [ghw_sponsor.GetFaith.DivineRealm]."
  great_holy_war.0003.a:0 "Мои воины будут готовы к битве!"
  great_holy_war.0003.a.tt:0 "[ghw_sponsor.GetTitledFirstName] собирает войска. Я пообещаю выступить, когда начнется [ghw_sponsor.GetFaith.GHWName]."
@@ -61,7 +61,7 @@
  great_holy_war.0023.d:0 "Это не моя война."
  great_holy_war.0024.dead.recipient.title:0 "[ghw_claimant.GetFirstNameNoTooltip] [Select_CString(ghw_claimant.IsFemale, 'умерла', 'умер' )]"
  great_holy_war.0024.dead.recipient.replaced:0 "[ghw_claimant.GetTitledFirstName] теперь является законным кандидатом в войне «[the_faith.GHWName]»."
- great_holy_war.0024.dead.recipient.open:2 "[former_recipient.GetTitledFirstName] [Select_CString(former_recipient.IsFemale, 'умерла', 'умер' )], и [target_kingdom.GetBaseNameNoTier] теперь достанется наиболее благочестивому воителю."
+ great_holy_war.0024.dead.recipient.open:1 "[former_recipient.GetTitledFirstName] [Select_CString(former_recipient.IsFemale, 'умерла', 'умер' )], и [target_kingdom.GetBaseNameNoTier] теперь достанется наиболее благочестивому воителю." # [LocEditor:AwaitingBatchUpdate]
  great_holy_war.0028.dead.beneficiary_title:0 "Мёртвый бенефициар"
  great_holy_war.0028.dead.beneficiary:0 "[Select_CString(former_beneficiary.IsFemale, 'Моя', 'Мой' )] [ROOT.Char.Custom2('RelationToMeShort', SCOPE.sC('former_beneficiary'))] [former_beneficiary.GetFirstName] [Select_CString(former_beneficiary.IsFemale, 'умерла', 'умер' )], и мне нужно выбрать нового бенефициара в войне «[ROOT.Char.GetFaith.GHWName]»."
  great_holy_war.0029.invalid.beneficiary_title:0 "Неподходящий бенефициар"
@@ -78,7 +78,7 @@
  great_holy_war.0040.c:0 "Я могу выделить пару монет."
  great_holy_war.0040.d:0 "Я серьезно над этим подумаю."
 
- great_holy_war.0050.title:1 "[the_faith.GHWName] за титул [target_kingdom.GetBaseNameNoTierNoTooltip]"
+ great_holy_war.0050.title:0 "[the_faith.GHWName] за титул [target_kingdom.GetBaseNameNoTierNoTooltip]" # [LocEditor:AwaitingBatchUpdate]
  great_holy_war.0050.base.desc:0 "[the_faith.GetAdjectiveNoTooltip]ие правители, вдохновленные призывом, который [Select_CString(ghw_sponsor.IsFemale, 'кинула', 'кинул' )] [ghw_sponsor.GetTitledFirstName], начали собирать огромную армию фанатиков: скоро начнется [the_faith.GHWName] против всех, кого возмущает [the_faith.ReligiousSymbol] в земле [target_kingdom.GetBaseNameNoTierNoTooltip]. Всё больше фанатиков собирается в могучее войско, над которым реет [the_faith.ReligiousSymbol]. Война идет в наши земли."
  great_holy_war.0050.defender.desc:0 "\n\nМне предстоит объединить своих [ROOT.Char.GetFaith.GetNameNoTooltip|l]их собратьев-правителей в регионе и приготовиться к встрече, пока [ghw_sponsor.Custom('GetUnbelieverNamePlural')] не сделали это первыми."
  great_holy_war.0050.others.desc:1 "\n\nМы можем лишь молиться и надеяться, что [ROOT.Char.GetFaith.WarGodName] ниспошлет нам храбрость и [target_character.GetTitledFirstName] стойко встретит волну, которую подняли [ghw_sponsor.Custom('GetUnbelieverNamePlural')]."

@@ -48,6 +48,7 @@
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP:0 "Ополчение: $LEVIES|%1V$ ($LEVIES_CHANGE|+=%1$)"
  VASSAL_CONTRACT_OBLIGATION_LEVEL_LEVIES_EFFECT_TOOLTIP_CURRENT:0 "Ополчение: $LEVIES|%1V$"
  VASSAL_CONTRACT_OBLIGATION_PREVIEW_TOOLTIP_CURRENT:0 "#weak Текущий уровень обязательств#!"
+ VASSAL_CONTRACT_LIEGE_IS_NOT_RIGHTFUL_LIEGE_NOTICE:0 "[VassalContract.GetLiege.GetNameOrMe|U] не [SelectLocalization( VassalContract.GetVassal.IsPlayer, 'ваш ', '' )][rightful_liege|El][SelectLocalization( VassalContract.GetVassal.IsPlayer, '', ' этого вассала' )]"
  VASSAL_CONTRIBUTION_NON_RIGHTFUL_LIEGE:0 "Не [rightful_liege|El]"
  VASSAL_CONTRIBUTION_AT_WAR_WITH_LIEGE:0 "[war|E] с [Concept( 'liege', 'сюзереном' )|E]"
 

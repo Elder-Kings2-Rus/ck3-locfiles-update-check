@@ -354,6 +354,13 @@
  IS_INDEPENDENT_RULER_TRIGGER:0 "[independent|E] правитель"
  NOT_IS_INDEPENDENT_RULER_TRIGGER:0 "#bold Не#! [Concept( 'independent', 'независимый' )|E] правитель"
 
+ I_AM_HEAD_OF_FAITH_TRIGGER:0 "Вы глава конфессии"
+ NOT_I_AM_HEAD_OF_FAITH_TRIGGER:0 "Вы #bold не#! глава конфессии"
+ IS_HEAD_OF_FAITH_TRIGGER:0 "Является главой конфессии"
+ NOT_IS_HEAD_OF_FAITH_TRIGGER:0 "#bold Не#! является главой конфессии"
+ CHARACTER_IS_HEAD_OF_FAITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] является главой конфессии"
+ CHARACTER_IS_NOT_HEAD_OF_FAITH_TRIGGER:0 "[CHARACTER.GetShortUIName|V] #bold не#! является главой конфессии"
+
  PRESTIGE_LEVEL_IS_AT_LEAST:0 "Имеет [prestige_level|El] «[GetPrestigeLevelName( '(int32)$NUM$' )]» ($NUM|V0$)"
  MY_PRESTIGE_LEVEL_IS_AT_LEAST:1 "Ваш [prestige_level|El] — «[GetPrestigeLevelName( '(int32)$NUM$' )]» ($NUM|V0$) или выше"
  THEIR_PRESTIGE_LEVEL_IS_AT_LEAST:0 "[prestige_level|E] персонажа [CHARACTER.GetShortUINamePossessive|V] — «[GetPrestigeLevelName( '(int32)$NUM$' )]» ($NUM|V0$) или выше"

@@ -1115,6 +1115,7 @@
  mozarabic_bind_the_faith_to_rome_decision.path_fundamentalist:0 "Если мы реформируем нашу [Concept( 'faith', 'конфессию' )|E] так, чтобы повысить свой $doctrine_pluralism_fundamentalist_name$"
  mozarabic_bind_the_faith_to_rome_decision.path_pluralist:0 "Если мы реформируем нашу [Concept( 'faith', 'конфессию' )|E] так, чтобы повысить свой $doctrine_pluralism_pluralistic_name$"
  mozarabic_fate_county_count.need_at_least_twenty_same_faith_counties:0 "У вас должно быть не менее [EmptyScope.ScriptValue('mozarabic_fate_county_count')|0] [Concept( 'counties', 'графств' )|E] той же [Concept( 'faith', 'веры' )|E]"
+ mozarabic_bind_the_faith_to_rome_decision.threaten_pope:0 "@warning_icon! #warning Вы принуждаете Папу с помощью [Concept( 'strong_hook', 'сильного влияния' )|E], и ему это не понравится!#!"
 
  mozarabic_break_with_rome_decision:0 "Порвать с Римом"
  mozarabic_break_with_rome_decision_desc:0 "Да что [ROOT.Char.GetFaith.GetReligiousHead.GetTitledFirstName] знает о нашей жизни и землях? Нашим погрязшим в миру кардиналам в Риме нет дела до наших духовных нужд.\n\nЛишь когда [ROOT.Char.GetFaith.GetReligiousHeadTitle.GetBaseName] перестанет быть нам идолом и [ROOT.Char.GetFaith.GetName|l] очистится от лжи и достигнет совершенства."
@@ -1172,4 +1173,4 @@
  not_can_execute_decision:0 "Сейчас вы не можете принять это [Concept( 'decision', 'решение' )|E]"
  can_execute_decision:0 "Сейчас вы можете принять это [Concept( 'decision', 'решение' )|E]"
  NO_DECISION_OPTIONS_SELECTED:0 "@warning_icon! #X Выберите вариант#!"
- revive_taltoism_decision_before_last_date: "Дата — 1 января 1100 г. или ранее"
+ revive_taltoism_decision_before_last_date:0 "Дата — 1 января 1100 г. или ранее"

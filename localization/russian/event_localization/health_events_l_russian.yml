@@ -264,8 +264,8 @@
  #Disease treatment, by Mathilda Bjarnehed & Milla Isaksson
  health.3101.t:1 "[SCOPE.Custom('EventTitleDisease')]: время для лечения"
  health.3101.start.desc:0 "«Пришло время излечить ваше заболевание"
- health.3101.safe_recommendation.desc:0 "и хотя я не сомневаюсь, что хватит простой настойки,"
- health.3101.risky_recommendation.desc:0 "я советую более радикальные методы, но"
+ health.3101.safe_recommendation.desc:0 "И хотя я не сомневаюсь, что хватит простой настойки,"
+ health.3101.risky_recommendation.desc:0 "Я советую более радикальные методы, но"
  health.3101.mystic_recommendation.desc:0 "Не сочтите за дерзость, мне бы хотелось порекомендовать вам... альтернативное лечение. Но"
  health.3101.end.desc:1 "выбор за вами»."
  health.3101.a:0 "Не делай ничего сверх необходимого."

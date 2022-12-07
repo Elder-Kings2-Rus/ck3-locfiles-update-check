@@ -169,7 +169,7 @@
  petition_liege.0201.desc.construct_city:0 "\n\nЯ излагаю аргументы в пользу развития поселения [petition_construct.GetName] во владении [petition_construct_county.GetNameNoTier], перечисляя заученный перечень выгод."
  petition_liege.0201.desc.construct_temple:0 "\n\nЯ скромно предлагаю, что [petition_liege.GetFaith.HouseOfWorship] будет к месту во владении [petition_construct_county.GetNameNoTier] и поможет развитию поселения [petition_construct.GetName]."
  petition_liege.0201.desc.development:0 "\n\nЯ подробно описываю, насколько [petition_county_example.GetName] и [petition_liege.GetCapitalLocation.GetCounty.GetTitle.GetNameNoTier] отличаются друг от друга и что можно сделать, чтобы исправить это."
- petition_liege.0201.desc.bridge:1 "\n\nВыслушав мою подготовленную речь, [petition_liege.GetSheHe] тепло улыбается и говорит «Ну конечно, [petition_liege.Custom2('RelationToMeShort', petitioning_vassal)]! Я немедленно отправлю людей разобраться с этим делом»."
+ petition_liege.0201.desc.bridge:1 "\n\nВыслушав мою подготовленную речь, [petition_liege.GetSheHe] тепло улыбается и говорит «Ну конечно, [petition_liege.Custom2('RelationToMeShort', petition_vassal)]! Я немедленно отправлю людей разобраться с этим делом»."
  petition_liege.0201.desc.council_second_party:0 "Я явно не хуже, чем [second_party.GetFullName]..."
  petition_liege.0201.a:0 "Спасибо, мой сюзерен!"
  petition_liege_accept_tt:0 "Ваше прошение принято"

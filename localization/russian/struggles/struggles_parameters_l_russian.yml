@@ -6,7 +6,7 @@
  struggle_parameter_unlocks_fabricate_hooks_for_all:2 "Разблокированы [scheme|El] «[GetScheme('fabricate_hook').GetTypeName]» в отношении [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'rulers', 'правителей' )|E]"
  struggle_parameter_unlocks_claim_throne_for_all:2 "Разблокированы [Concept( 'schemes', 'происки' )|E] «[GetScheme('claim_throne').GetTypeName|U]» в отношении [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'rulers', 'правителей' )|E]"
  struggle_parameter_unlocks_incite_revolts_interaction:2 "Можно [incite_revolts_interaction|El] у других [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'rulers', 'правителей' )|E]"
- struggle_parameter_unlocks_forced_vassalization_casus_belli:2 "Разблокирован [vassalize_casus_belli|El]"
+ struggle_parameter_unlocks_forced_vassalization_casus_belli:2 "Разблокирован [vassalize_casus_belli|El]" # [LocEditor:AwaitingBatchUpdate]
  struggle_parameter_powerful_vassal_can_claim_liege_titles:2 "[Concept( 'powerful_vassal', 'Могущественные вассалы' )|E] могут $vassal_claim_liege_title_interaction$""
  struggle_parameter_unlocks_claim_throne_for_powerful_vassals:2 "Разблокированы [scheme|El] «[GetScheme('claim_throne').GetTypeName|U]» для [Concept( 'powerful_vassals', 'могущественных вассалов' )|E] против [Concept( 'struggle_involved', 'вовлеченных в борьбу' )|E] [Concept( 'rulers', 'правителей' )|E]"
  struggle_parameter_holy_order_can_be_created_by_dukes:1 "Герцоги могут создавать [Concept( 'holy_order', 'священные ордены' )|E]"

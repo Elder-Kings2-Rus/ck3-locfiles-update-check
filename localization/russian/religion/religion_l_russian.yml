@@ -76,6 +76,7 @@
  fervor_gain_defector_heresy:0 "$fervor_gain_new_heresy$"
  fervor_gain_persecuted:0 "Возмущение в ответ на преследования"
  fervor_gain_theravada:0 "#L [theravada_faith.GetName]ие#! религиозные реформы"
+ fervor_gain_holy_order_expelled_by_force:0 "[holy_order|E] изгнан другой [Concept( 'faith', 'конфессией' )|E]"
 
  FAITH_DOCTRINE_GENERAL_TOOLTIP:1 "[FaithDoctrine.GetEffectsDescription( GetPlayer.GetFaith )]\n\n[FaithDoctrine.GetDescription( GetPlayer.GetFaith )|F]"
 
@@ -845,8 +846,8 @@
  doctrine_parameter_clerical_appointment_fixed_disabled:1 "[realm_priest|E] или [court_chaplain|El] могут быть уволены и заменены другими персонажами"
  doctrine_parameter_clerical_appointment_fixed:0 "Должности «[realm_priest|El]» и «[court_chaplain|El]» даются пожизненно"
 
- unreformed_faith_doctrine_name:0 "Нереформированная"
- unreformed_faith_name:0 "$unreformed_faith_doctrine_name$"
+ unreformed_faith_doctrine_name:1 "Нереформированная"
+ unreformed_faith_name:1 "доктрина"
  unreformed_faith_doctrine_desc:1 "В нереформированной конфессии отсутствует организованное духовенство и каноны. Различные сообщества могут номинально исповедовать одну веру, но при этом практиковать совершенно разные религиозные обряды и суеверия."
  doctrine_parameter_unreformed:1 "Племенные [rulers|El] не могут менять тип [Concept( 'government', 'правительства' )|E]\n$EFFECT_LIST_BULLET$Дает [unreformed_pagan_combat_bonus|El]"
  doctrine_parameter_hostility_override_tenet_unreformed_syncretism:2 "Неязыческие [faiths|El] с догматом $tenet_unreformed_syncretism_name$ воспринимаются как [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V], а не $hostility_evil_tooltippable$"

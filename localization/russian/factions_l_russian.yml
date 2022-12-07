@@ -22,7 +22,7 @@
  independence_faction_short_effect_desc:0 "Хочет независимости от [Concept( 'liege', 'сюзерена' )|E]"
 
  nation_fracturing_faction:1 "Фракция разделения"
- nation_fracturing_faction_desc:0 "Члены [Concept( 'faction', 'фракции' )|E] сторонников распада державы стремятся уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E].\n\n#S Ультиматум#!\nВсе члены фракции становятся [Concept( 'independent', 'независимыми' )|E]\n[liege|E] теряет свой первый титул"
+ nation_fracturing_faction_desc:0 "Члены [Concept( 'faction', 'фракции' )|E] за распад державы стремятся уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E].\n\n#S Ультиматум#!\nВсе члены фракции становятся [Concept( 'independent', 'независимыми' )|E]\n[liege|E] теряет свой [Concept( 'primary_title', 'первый титул' )|E] и остальные [Concept( 'titles', 'титулы' )|E] того же [Concept( 'title_tier', 'ранга' )|E]" # [LocEditor:AwaitingBatchUpdate]
  nation_fracturing_faction_short_effect_desc:0 "Хочет уничтожить державу своего [Concept( 'liege', 'сюзерена' )|E]"
  liege_primary_title_dissolution:0 "Теперь вы независимы!"
  liege_primary_title_dissolution_desc:0 "Ваш сюзерен лишился [Concept( 'primary_title', 'первого титула' )|E] из-за [Concept( 'faction', 'фракции' )|E] «$nation_fracturing_faction$»"

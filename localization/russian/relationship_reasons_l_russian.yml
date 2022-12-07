@@ -1253,6 +1253,9 @@
  rival_dismissed_weak_hook:0 "[TARGET_CHARACTER.GetShortUIName|U] игнорирует слабое влияние [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  rival_dismissed_weak_hook_corresponding:0 "[CHARACTER.GetShortUIName|U] игнорирует слабое влияние [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
 
+ rival_generic_coerced_with_strong_hook:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'принудила', 'принудил' )] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )] с помощью [Concept( 'strong_hook', 'сильного влияния' )|E]"
+ rival_generic_coerced_with_strong_hook_corresponding:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'принудила', 'принудил' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] с помощью [Concept( 'strong_hook', 'сильного влияния' )|E]"
+
  rival_dispute_inspiration:0 "[CHARACTER.GetShortUIName|U] самым оскорбительным образом [Select_CString(CHARACTER.IsFemale, 'назвала', 'назвал' )] новый предмет именем [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
  rival_dispute_inspiration_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] самым оскорбительным образом [Select_CString(TARGET_CHARACTER.IsFemale, 'назвала', 'назвал' )] новый предмет именем [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]."
 
@@ -2095,6 +2098,9 @@
 
  friend_gave_council_seat:0 "[CHARACTER.GetShortUIName|U] [Select_CString(CHARACTER.IsFemale, 'наняла', 'нанял' )] [Select_CString(TARGET_CHARACTER.IsLocalPlayer, '', 'персонажа ' )][TARGET_CHARACTER.GetNamePossessiveOrMy][Select_CString(TARGET_CHARACTER.IsLocalPlayer, 'его персонажа', '' )] на должность советника"
  friend_gave_council_seat_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'была нанята', 'был нанят' )] [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажем ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'им персонажем', '' )] в качестве советника"
+
+ fp2_progress_towards_rival_funded_revolt_against_me:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'поддержала', 'поддержал' )] бунт против [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
+ fp2_progress_towards_rival_funded_revolt_against_me_corresponding:0 "[TARGET_CHARACTER.GetShortUIName|U] [Select_CString(TARGET_CHARACTER.IsFemale, 'дестабилизировала', 'дестабилизировал' )] державу [Select_CString(CHARACTER.IsLocalPlayer, '', 'персонажа ' )][CHARACTER.GetNamePossessiveOrMy][Select_CString(CHARACTER.IsLocalPlayer, 'его персонажа', '' )]"
 
 # === [LocEditor:OrphanedKeys] Keys that do not exist in English ===
  best_friend_councel_and_support:0 "[CHARACTER.GetShortUIName|U] и [TARGET_CHARACTER.GetShortUIName] стали верными друзьями, всегда поддерживая друг друга советом."

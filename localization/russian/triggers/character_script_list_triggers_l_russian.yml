@@ -19,4 +19,4 @@
  NOT_ANY_IN_DE_JURE_ALL_THIRD:0 "Ни один из де-юре [Concept( 'titles|El', 'титулов' )|E] державы [TITLE.GetName]"
 
  ANY_REALM_COUNTY:0 "Любое [Concept( 'county', 'графство' )|E] [Concept( 'realm', 'державы' )|E]:"
- ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'county', 'графство' )|E] [Concept( 'realm', 'державы' )|E]:"
+ ANY_REALM_COUNTY_COUNT:0 "$PARAMETERS$ [Concept( 'counties', 'графств' )|E] [Concept( 'realm', 'державы' )|E]:"

@@ -67,6 +67,8 @@
  fp2_saints_tombs_modifier_desc:0 "Разбросанные по всему графству каменные изваяния в форме кабанов считаются гробницами христианских святых."
  fp2_controls_the_mediterranean_house_modifier:1 "Владыки Средиземного моря"
  fp2_controls_the_mediterranean_house_modifier_desc:0 "Этот дом известен тем, что ему удалось взять под контроль Средиземное море и идущую через него торговлю."
+ fp2_aragon_title_reward_house_modifier:0 "Основатели Арагона"
+ fp2_aragon_title_reward_house_modifier_desc:0 "Этот дом основал королевство Арагон на землях с суровой местностью и еще более суровыми воинами."
  fp2_sponsored_golden_age_modifier:0 "Поддержка золотого века"
  fp2_sponsored_golden_age_modifier_desc:0 "Этот персонаж поддержал следующий крупный региональный золотой век научного прогресса."
  fp2_part_of_golden_age_modifier:0 "Жизнь в эпоху золотого века"

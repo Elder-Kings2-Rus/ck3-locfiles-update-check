@@ -2022,6 +2022,8 @@
  custom.every_male_courtier:0 "Каждый [courtier|El]"
  custom.every_same_culture_vassal:0 "Каждый #L [root_culture.GetCollectiveNoun|l]ий#! [vassal|El]"
  custom.every_different_culture_vassal:0 "Каждый #L не[root_culture.GetCollectiveNoun|l]ий#! [vassal|El]"
+ custom.every_non_callous_or_sadistic_courtier_and_guest:0 "Каждый не бесчувственный и не садистский [courtier|El] и [guest|El]"
+ custom.every_zealous_courtier_and_guest:0 "Каждый фанатичный [courtier|El] и [guest|El]"
 
  guest_and_family_move_to_specific_pool_effect.tt.family:0 "[character|E] и путешествующие с ним члены [Concept( 'family', 'семьи' )|E]"
 
